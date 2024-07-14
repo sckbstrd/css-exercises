@@ -46,7 +46,6 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-
 }
 
 ul {
@@ -55,8 +54,8 @@ ul {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   flex: 1;
+  gap: 32px;
 }
 
 .sidebar {
@@ -68,6 +67,7 @@ ul {
 
 .cards {
   display: flex;
+  padding: 48px;
 }
 
 a { 
