@@ -1,4 +1,4 @@
-* {
+*, ::before, ::after {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -39,7 +39,6 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  box-sizing: border-box;
 }
 
 .card {
@@ -49,7 +48,6 @@ body {
   display: flex;
   width: 300px;
   padding: 16px;
-  flex-grow: 1;
 }
 
 ul {
